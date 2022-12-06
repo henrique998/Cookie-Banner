@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+:root {
+    --title: #170F49;
+    --text: #6F6C90;
+    --primary: #4A3AFF;
+    --secondary: #F7F7FB;
+    --border: #D9DBE9;
+    --white: #FFFFFF;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}

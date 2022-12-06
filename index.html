@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/cookie.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script defer src="https://unpkg.com/phosphor-icons"></script>
+  <script type="module" defer src="/src/main.ts"></script>
+
+  <title>Cookie Banner</title>
+</head>
+
+<body>
+  <main>
+    <div class="banner-container">
+      <div class="content">
+        <div>
+          <button data-button="close-button" class="close-button">
+            <i class="ph-x-circle-fill"></i>
+          </button>
+
+          <div class="cookie-image-container">
+            <img src="/cookie.svg" alt="">
+          </div>
+
+          <h2>Nosso site usa cookies</h2>
+
+          <p>
+            Nosso site usa cookies. Ao continuar,
+            assumimos sua permissão para implantar cookies conforme detalhado em nossa <a href="#">Política de
+              Privacidade.</a>
+          </p>
+        </div>
+      </div>
+
+      <footer>
+        <button data-button="accept-button" class="accept">
+          <img src="/white-cookie.svg" alt="">
+
+          Aceitar cookies
+        </button>
+
+        <button data-button="decline-button" class="decline">Rejeitar</button>
+      </footer>
+    </div>
+  </main>
+</body>
+
+</html>
